@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tetris Game</title>
   <link rel="stylesheet" href="styles.css">
+  <title>Tetris</title>
 </head>
 <body>
-  <div id="level-container">
-    <h2>Level:</h2>
-    <span id="level">1</span>
-  </div>  
-  <div id="score-container">
-    <h2>Score:</h2>
-    <span id="score">0</span>
-  </div>  
-  <div id="game-board"></div>
+  <div class="container">
+    <div class="info-container">
+      <div class="score-container">
+        <div class="score-label">Score</div>
+        <div class="score-value" id="score">0</div>
+      </div>
+      <div class="level-container">
+        <div class="level-label">Level</div>
+        <div class="level-value" id="level">1</div>
+      </div>
+    </div>
+    <div id="game-board"></div>
+  </div>
   <script src="tetris.js"></script>
 </body>
 </html>
-
