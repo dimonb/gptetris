@@ -1,6 +1,6 @@
 # Tetris Game
 
-This project is a simple implementation of the classic Tetris game built using HTML, CSS, and JavaScript.
+This project is a simple implementation of the classic Tetris game built using HTML, CSS, and JavaScript. The code was generated with the help of an AI language model, ChatGPT by OpenAI.
 
 ## Features
 
@@ -22,6 +22,10 @@ This project is a simple implementation of the classic Tetris game built using H
    - Up arrow: rotate the piece
 4. The game will automatically increase the level and speed as you clear lines.
 5. The game is over when a new piece cannot enter the playfield.
+
+## Acknowledgments
+
+This Tetris game was developed with the assistance of ChatGPT, an AI language model created by OpenAI.
 
 ## License
 
